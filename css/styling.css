@@ -1,0 +1,178 @@
+
+
+
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 2.5rem;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: darkgrey;
+  }
+  
+
+
+
+  
+
+  #Home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    width: 80vw;
+}
+.slide-show{
+   /* height: 80vh;     */
+}
+
+#Home h2{
+    font-size: 2rem;
+    color: white;
+
+}
+
+#Home p{
+    margin-top: 2.5%;
+}
+
+#Home img{
+    width: 100%;
+}
+
+.mySlides{
+    display:none;
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+#About{
+
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     margin-left: 5%;
+     margin-right: 5%;
+      margin-top: 5%;
+      width: 80vw;
+    
+}
+
+#About h2{
+    text-align: center;
+    color: black;
+}
+
+h2{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+p{
+    font-size: 1.5rem;
+    color:black;
+}
+
+
+
+
+#download-resume{
+   background-color:rgb(179, 226, 235);
+   border-radius: 15px;
+   border-style: outset;
+   padding: auto;
+   color: black;
+   padding: 1%;
+}
+
+
+
+#Contact{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+     margin-top: 5%;
+     width: 80vw;
+}
+
+#Contact h2{
+    color:whitesmoke;
+}
+
+.social-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+     margin-top: 5%;
+     width: 80vw;
+}
+
+.social-buttons a{
+    font-size: 1rem;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 5%;
+    color: white;
+}
+
+/* linked in  */
+.fa-linkedin {
+  background: linear-gradient(#64c1e6, #d4d5e7);
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 2rem;
+    margin-right: 2rem;;
+}
+
+/* youtube */
+.fa-youtube {
+    background:linear-gradient(#e66465, #f00606);
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;;
+  }
+/* Instagram */
+.fa-instagram {
+  background: linear-gradient(#e66465, #9198e5);
+  color: white;
+  width: 2rem;
+  height: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;;
+}
+/* github */
+.fa-github {
+    background: linear-gradient(#e2e2e2, #080808);
+    color: white;
+    width: 2rem;
+    height: 2rem;
+      margin-left: 2rem;
+      margin-right: 2rem;;
+  }

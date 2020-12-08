@@ -1,0 +1,198 @@
+
+}
+#fts{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 45px;
+  color: white;
+}
+#aa{
+font-size: 20px;
+color: white;
+}
+
+  }
+
+a:visited{
+text-decoration: none;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  margin-left: 0%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+  background-color: ;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+ /*  padding: 0 0px; */
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  margin-left: 20px;
+
+}
+
+.column img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+#row1{
+  margin-top: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  justify-content: space-around;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.container{
+  flex-grow: 1;
+  min-width: 25%;
+  margin-top: 1%;
+  cursor: pointer;
+  transition: width 1s;
+}
+
+
+
+.img{
+  max-width: 95%;
+  border-radius: 10px;
+  min-width: 95%;
+}
+
+#food2{
+  width: 385%;
+}
+#deals2{
+  width: 385%;
+}
+#shop2{
+  width: 385%;
+  height: auto;
+}
+#shop{
+  height: 550%;
+}
+
+
+
+
+
+
+button{
+  cursor: pointer;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+/* Facebook */
+.fa-facebook {
+  background: #99D5C9;
+  color: white;
+  margin-left: 2%;
+    margin-right: 2%;
+}
+
+/* Twitter */
+.fa-twitter {
+  background:#99D5C9;
+  color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+/* Instagram */
+.fa-instagram {
+  background: #99D5C9;
+  color: white;
+    margin-left: 2%;
+}
+
+
+
+#shop2{
+  width: 385%;
+  transition: width 1s;
+}
+
+#shop2:hover{
+  width: 600%;
+}
+
+#deals2{
+  width: 385%;
+  transition: width 1s;
+}
+
+#deals2:hover{
+  width: 600%;
+}
+
+#food2{
+  width: 385%;
+  transition: width 1s;
+}
+
+#food2:hover{
+  width: 600%;
+}
+.bioPic{
+  border-radius: 100px;
+  max-width: 50vw;
+  max-block-size: 60vh;
+}
+.page-footer{
+    background-image: url("../Assets/Pictures/texturefabrik_vectors_61 (1)1024_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.shadow{
+  text-shadow: 3px 3px 5px black;
+}
