@@ -1,4 +1,4 @@
-var images = ["./Assets/Pictures/lyfehere.png", "./Assets/Pictures/collegeplus.png", "./Assets/Pictures/TheRangeSite.png","/pictures/LasCrucesNMGrid/Events.png", "/pictures/LasCrucesNMGrid/Outdoor-Activities.png", "/pictures/LasCrucesNMGrid/Music.png", "/pictures/LasCrucesNMGrid/Clubs-Groups.png", "/pictures/LasCrucesNMGrid/Museums.png", "/pictures/LasCrucesNMGrid/Downtown.png", "/pictures/LasCrucesNMGrid/Movies.png", "/pictures/LasCrucesNMGrid/Lodging.png", "/pictures/LasCrucesNMGrid/Art.png"];
+var images = ["./Assets/Pictures/lyfehere.png", "./Assets/Pictures/collegeplus.png", "./Assets/Pictures/TheRangeSite.png","./Assets/Pictures/demo.gif", "./Assets/Pictures/Covid_Travel_Planner_Demo.gif", "./Assets/Pictures/Capture.png", "/pictures/LasCrucesNMGrid/Clubs-Groups.png", "/pictures/LasCrucesNMGrid/Museums.png", "/pictures/LasCrucesNMGrid/Downtown.png", "/pictures/LasCrucesNMGrid/Movies.png", "/pictures/LasCrucesNMGrid/Lodging.png", "/pictures/LasCrucesNMGrid/Art.png"];
 
 function onLoad(){
 
@@ -57,7 +57,7 @@ function onLoad(){
 
     });
     $("#events2").click(function(){
-        document.location.href ="/LasCrucesEvents";
+        document.location.href ="https://follow-my-fitness.herokuapp.com/";
     });
     $("#outdoors2").mouseover(largeIMG5);
     $("#outdoors3").mouseover(largeIMG5);
@@ -66,7 +66,7 @@ function onLoad(){
 
     });
     $("#outdoors2").click(function(){
-        document.location.href ="/LasCrucescategorydirectory#OutdoorDirectory";
+        document.location.href ="https://jrod3323.github.io/Covid_Travel_Planner/";
     });
     $("#music2").mouseover(largeIMG6);
     $("#music3").mouseover(largeIMG6);
@@ -75,7 +75,7 @@ function onLoad(){
 
     });
     $("#music2").click(function(){
-        document.location.href ="/LasCrucescategorydirectory#MusicDirectory";
+        document.location.href ="https://fierce-earth-66962.herokuapp.com/";
     });
     $("#clubs2").mouseover(largeIMG7);
     $("#clubs3").mouseover(largeIMG7);
@@ -143,13 +143,13 @@ function largeIMG3(){
     $("#food").attr("src", "./Assets/Pictures/TheRangeSite.png");
 }
 function largeIMG4(){
-    $("#events").attr("src", "/pictures/LasCrucesNMGrid/Events-Blur.png");
+    $("#events").attr("src", "./Assets/Pictures/demo.gif");
 }
 function largeIMG5(){
-    $("#outdoors").attr("src", "/pictures/LasCrucesNMGrid/Outdoor-Activities-Blur.png");
+    $("#outdoors").attr("src", "./Assets/Pictures/Covid_Travel_Planner_Demo.gif");
 }
 function largeIMG6(){
-    $("#music").attr("src", "/pictures/LasCrucesNMGrid/Music-Blur.png");
+    $("#music").attr("src", "./Assets/Pictures/Capture.png");
 }
 
 function largeIMG7(){

@@ -182,14 +182,40 @@ button{
 #food2:hover{
   width: 600%;
 }
+
+#events2{
+  width: 385%;
+  transition: width 1s;
+}
+
+#events2:hover{
+  width: 600%;
+}
+
+#outdoors2{
+  width: 385%;
+  transition: width 1s;
+}
+
+#outdoors2:hover{
+  width: 600%;
+}
+
+#music2{
+  width: 385%;
+  transition: width 1s;
+}
+
+#music2:hover{
+  width: 600%;
+}
 .bioPic{
   border-radius: 100px;
   max-width: 50vw;
   max-block-size: 60vh;
 }
 .page-footer{
-    background-image: url("../Assets/Pictures/texturefabrik_vectors_61 (1)1024_1.jpg");
-    background-repeat: no-repeat;
+    background-color: rgb(173, 173, 173)
     background-size: 100%;
 
 }
